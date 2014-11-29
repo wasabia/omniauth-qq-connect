@@ -37,6 +37,7 @@ module OmniAuth
           :nickname => raw_info['nickname'],
           :name => raw_info['nickname'], # Since it is required, fill it with nickname
           :image => raw_info['figureurl_1'],
+          :image_qq_2 => raw_info['figureurl_qq_2'],
         }
       end
       
